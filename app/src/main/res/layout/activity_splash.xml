@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FAF4"
+    tools:context=".splash">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/whatsapplogo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/whatsapplogo" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lineardots"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_below="@id/whatsapplogo"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lineardots" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/nk"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/lineardots"
+        android:layout_alignParentBottom="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/nk" />
+
+
+
+
+
+</RelativeLayout>
